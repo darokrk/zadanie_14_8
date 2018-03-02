@@ -1,10 +1,10 @@
 App = React.createClass({
 	getInitialState() {
-		return (
+		return {
 			loading: false,
 			searchingText: '',
 			gif: {}
-		);
+		};
 	},
 	handleSearch: function(searchingText) {
 		this.setState({
