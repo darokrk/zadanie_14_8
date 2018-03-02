@@ -43,7 +43,7 @@ App = React.createClass({
 		return (
 			<div style={styles}>
 				<h1>Search GIFs!</h1>
-				<p>Find gif on</p> <a href='http://giphy.com'>giphy</a>.<p> Press enter to download another gifs.</p>
+				<p>Find gif on <a href="http://giphy.com">giphy</a>. Press enter to download another gifs.</p>
 				<Search onSearch={this.handleSearch}/>
 				<Gif
 
