@@ -48,11 +48,8 @@ App = React.createClass({
 				<p>Find gif on <a href="http://giphy.com">giphy</a>. Press enter to download another gifs.</p>
 				<Search onSearch={this.handleSearch}/>
 				<Gif
-
-					loading={this.state.loading}
-					
-					url={this.state.gif.url}
-					
+					loading={this.state.loading}					
+					url={this.state.gif.url}					
 					sourceUrl={this.state.gif.sourceUrl}
 				/>
 			</div>
